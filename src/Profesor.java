@@ -22,5 +22,9 @@ public class Profesor extends Persona{
     public String calificar(int nota){
         return "su nota es: "+nota;
     }
+
+    public String llamaraLista(){
+        return "todos estan en clase";
+    }
     
 }
